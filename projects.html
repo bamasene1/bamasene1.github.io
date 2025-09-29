@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Foundation Intro</title>
+	<link rel="stylesheet" href="css/foundation.css">
+</head>
+<body>
+    
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="fun.html">Fun</a></li>
+           
+            </ul>
+        </div>
+        <!-- Your page content lives here -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+
+                <div class="grid-x grid-padding-x">
+                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+                </div>
+                <div class = "creative dock">
+                    <h1><i>Language Agent Tree Search</i></h1>
+                    <img src="lats tree definition.png" alt="lats tree"/>
+                </div>
+                    <p>I worked with Adam Hanka on designing and implementing AI agents and workflows that aid in decision support for financial questions. I combined both Language Agent Tree Search(LATS) and Retrieval Augmented Generation(RAG) to make an agent that can leverage both internet searches and private company data to make decisions. At the same time, providing a visualization of the agents thought process with a scoring system to decide the best response.</p>
+
+                <div class = "hexagon">
+                    <h1><i>Hexagon: Tacit Knowledge Capture</i></h1>
+                    <img src = "knowledge.jpg" alt = "knowledge"/>
+                    <p>	Created RAG-based system to ask questions to add to knowledge base and answer questions based on retrieved data, then created structure on scraping tacit knowledge from metrologists in a non-intrusive way in order to build knowledge base. 
+Worked with Hexagon staff and presented PoC to key stakeholders in Hexagon AB. 
+</p>
+                </div>
+                <div class = "churn prediction">
+                    <h1><i>Churn Prediction</i></h1>
+                    <img src="road.jpg" alt="road"/>
+                    <p>Used Scikit-Learn and XgBoost to predict churn rates for a Czech business. Found that graadient boosting served their needs the best.</p>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

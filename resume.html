@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Foundation Intro</title>
+	<link rel="stylesheet" href="css/foundation.css">
+</head>
+<body>
+    
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="fun.html">Fun</a></li>
+           
+            </ul>
+        </div>
+        <!-- Your page content lives here -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+
+                <div class="grid-x grid-padding-x">
+                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+                </div>
+            <div class="container">
+        <header>
+            <h1>Ibrahima Ka</h1>
+            <p>St. Paul, Minnesota</p>
+            <p>
+                <a href="mailto:Ka007843@stthomas.edu">Ka007843@stthomas.edu</a> | 
+                651.278.3026 | 
+                <a href="https://www.linkedin.com/in/ibrahima-k%C3%A2/" target="_blank">LinkedIn</a>
+            </p>
+        </header>
+
+        <main>
+            <section id="education">
+                <h2>EDUCATION</h2>
+                <div class="education-entry">
+                    <h3>University of St. Thomas - St. Paul, Minnesota</h3>
+                    <p>
+                        <strong>Major:</strong> BS Computer Science | <strong>Cumulative GPA:</strong> 3.20<br>
+                        <strong>Minor:</strong> Data Science, Data Analytics<br>
+                        <strong>Expected Graduation:</strong> May 2026
+                    </p>
+                    <p><strong>Honors/Awards:</strong> Deans List</p>
+                    <p><strong>Scholarships:</strong> Ciresi Walburn Leadership Fellows</p>
+                    <p><strong>Relevant Coursework:</strong> Object Oriented Design, Cryptography and Computer Security, Algorithms, Operating Systems, Data Mining and Machine Learning(Python), Files and DBMS, Data Structures, Applied Regression Analysis</p>
+                </div>
+            </section>
+
+            <section id="experience">
+                <h2>EXPERIENCE</h2>
+                <div class="job">
+                    <h3>CreativeDock - Prague, Czech Republic</h3>
+                    <p class="job-title">Software Engineering Intern (Jan 2025 – Present)</p>
+                    <ul>
+                        <li>Contributed to the development of an agentic AI-powered software solution aimed at enhancing HR-employee communication and internal company structure through process mining and optimization.</li>
+                        <li>I created APIs to access company supplied data, graph-style agent workflows and visualizations for those workflows to present to project managers and stakeholders.</li>
+                        <li>Used Pydantic and LangGraph frameworks to make agent workflows.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Excel Research Scholars - UST - St. Paul, Minnesota</h3>
+                    <p class="job-title">Researcher (Jun 2024 – Dec 2024)</p>
+                    <ul>
+                        <li>Facilitated a research project on 4 NIST approved post-quantum encryption algorithms and testing their efficacy on classical data.</li>
+                        <li>Created a code implementation of CryptoQNRG testing methodology to measure algorithm efficacy in python.</li>
+                        <li>Utilized mentorship and resources to facilitate project success.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Técnicas y Servicios de Ingeniería - Madrid, Spain</h3>
+                    <p class="job-title">Software Engineering Intern (Jan 2024 – May 2024)</p>
+                    <ul>
+                        <li>Working on reverse engineering, documentation and deployment of provided TSI proprietary web application that implements .NET framework, LINQ for backend and AngularJS for frontend.</li>
+                        <li>Created guide for future developers to add features and customize app for different clients (Public vs Private sector clients).</li>
+                        <li>Deployed the software to clients on company hardware.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>PROJECTS AND PROFESSIONAL DEVELOPMENT</h2>
+                <div class="project">
+                    <h3>Hexagon AB Challenge Project - Prague, Czech Republic</h3>
+                    <p class="project-title">Team Member (Jan 2025 – Present)</p>
+                    <ul>
+                        <li>Created RAG-based system to ask questions to add to knowledge base and answer questions based on retrieved data.</li>
+                        <li>Created structure on scraping tacit knowledge from metrologists in a non-intrusive way in order to build knowledge base.</li>
+                        <li>Worked with Hexagon staff and presented PoC to key stakeholders in Hexagon AB.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>SEO Career - New York, NY</h3>
+                    <p class="project-title">SEO EDGE Participant (Dec 2024 – Present)</p>
+                    <ul>
+                        <li>Receive coaching and online instruction to achieve targeted interview, technical, and professional developmental goals.</li>
+                        <li>Learn business fundamentals to compete successfully for internship opportunities.</li>
+                        <li>Complete industry-specific training focused on developing technical skills, institutional knowledge, and attention to detail.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>ColorStack - St. Paul, Minnesota</h3>
+                    <p class="project-title">Member; Local Chapter Leader (Dec 2024 – Present)</p>
+                    <ul>
+                        <li>Founding member of University of St Thomas ColorStack chapter. Targeting Black and Latino CS students at our school.</li>
+                        <li>Organized weekly meetings with members(23 total) to develop their interview, technical and soft skills to gain opportunities in CS.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="skills">
+                <h2>OTHER SKILLS & INTERESTS</h2>
+                <p><strong>Computer:</strong> Java, Python, C++, C#, SQL, RStudio, Linux, Excel and Power Apps</p>
+                <p><strong>Languages:</strong> English-Native, French-Native</p>
+                <p><strong>Interests:</strong> Machine learning, Encryption, Data Science, Software Development</p>
+            </section>
+        </main>
+    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
