@@ -17,14 +17,24 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
-
+body.resume {
+  margin: 0;
+  text-align:left;
+}
 body {
   margin: 0;
+  text-align: center;
+
 }
+button { 
+  color: #ab3adb;
+}
+
 
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  text-align: center;
 }
 
 hr {
@@ -83,6 +93,7 @@ sup {
 
 img {
   border-style: none;
+  text-align: center;
 }
 
 button,
@@ -94,6 +105,7 @@ textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
+  
 }
 
 button,
@@ -242,6 +254,7 @@ img {
   max-width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
+  text-align: center;
 }
 
 textarea {
